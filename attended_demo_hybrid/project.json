@@ -1,0 +1,67 @@
+{
+  "name": "어텐디드자동화_UR서비스요청",
+  "description": "어텐디드 자동화 데모 - UR에게 특정 서비스 요청 후 응답 대기 ",
+  "main": "ARMain.xaml",
+  "dependencies": {
+    "Newtonsoft.Json": "[13.0.1]",
+    "UiPath.Azure.Activities": "[1.2.0]",
+    "UiPath.Form.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.WebAPI.Activities": "[1.9.2]",
+    "UiPathTeam.StatusProgress.Activities": "[1.0.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.7",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": false,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "URMain.xaml",
+      "uniqueId": "d301f059-c18a-4472-8577-96311a0b39e7",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "ARMain.xaml",
+      "uniqueId": "c5bf68da-35a8-4e6d-91db-6cae25771e5e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
